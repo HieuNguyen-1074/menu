@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    width : 100%;
+    height: 100%;
+}
+*{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu-bars{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 57, 77);
+    width: 100%;
+    height: 3em;
+}
+#menu-bars  *{
+  font-weight: bold;
+  line-height: 3em;
+}
+.logo a{
+    
+    color: #fff;
+    word-spacing: .5em;
+}
+#menu-deploy{
+    word-spacing: 2em;
+}
+#menu-deploy a{
+    font-weight: bold; 
+    color: #fff;
+   font-size: .7em;
+}
